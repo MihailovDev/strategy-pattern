@@ -1,0 +1,9 @@
+The strategy pattern defines a family of algorithms, encapsulates each one, and makes
+them interchangeable. Strategy lets the algorithm vary independently from clients that
+use it.
+
+This pattern favors composition to inheritance and allows runtime changes to behavior.
+We initiate variables that hold reference to the classes that hold behaviors (a family of
+algorithms). Every set of algorithms in the family is interchangeable. The superclass has a
+HAS-A relationship with the family of algorithms that it uses(It uses the encapsulated family of
+algorithms).
